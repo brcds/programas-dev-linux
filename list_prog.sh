@@ -67,6 +67,9 @@ sudo chmod +x /usr/local/bin/notion
 # Instala o Python 2.7
 echo "Instalando Python 2.7"
 sudo apt install python
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
+sudo python2.7 get-pip.py
+pip --version
 
 # Instala o Sublime Text
 echo "Instalando Sublime Text..."
