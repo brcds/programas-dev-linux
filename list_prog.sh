@@ -64,8 +64,8 @@ wget https://www.notion.so/desktop/download/linux
 sudo mv linux /usr/local/bin/notion
 sudo chmod +x /usr/local/bin/notion
 
-# Instala o Python 2.7 com pip
-echo "Instalando Python 2.7 e pip..."
+# Instala o Python 2.7
+echo "Instalando Python 2.7"
 sudo apt install python2.7
 
 # Instala o Sublime Text
